@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pikachu</title>
+    <style>
+        .pikachu {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .eye {
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .eye:nth-child(1) {
+            top: 50px;
+            left: 50px;
+        }
+
+        .eye:nth-child(2) {
+            top: 50px;
+            right: 50px;
+        }
+
+        .nose {
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 70px;
+            left: 70px;
+        }
+
+        .cheek {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .cheek:nth-child(1) {
+            top: 40px;
+            left: 110px;
+        }
+
+        .cheek:nth-child(2) {
+            top: 40px;
+            right: 110px;
+        }
+
+        .tail {
+            width: 40px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50px 50px 0 0;
+            position: absolute;
+            bottom: 0;
+            left: 90px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pikachu">
+        <div class="eye"></div>
+        <div class="eye"></div>
+        <div class="nose"></div>
+        <div class="cheek"></div>
+        <div class="cheek"></div>
+        <div class="tail"></div>
+    </div>
+</body>
+</html>
